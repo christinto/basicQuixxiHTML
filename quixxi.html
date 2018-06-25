@@ -1,0 +1,68 @@
+<!DOCTYPE html><html>
+
+<head>
+     <title id="text-align"> favorites / bookmark title goes here </title>
+</head>
+
+<body bgcolor="black" text="#7cfc00">
+
+<h2> <font size="10"> Quixxi </font> </h2>
+<font size="6">
+Description: <button type="button">Button</button>
+<br>
+Name:
+<br>
+Country:
+<br>
+City:
+
+</font>
+
+<hr>
+
+
+Product / service image
+<img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.grumpyssweetshop.com%2Fimage%2Fcache%2Fdata%2FWonka_Choc_Bar-900x720.jpg&f=1g">
+
+</body>
+
+</html>
+
+<!--  For uploading pics if need be..
+
+
+<style>
+    /* Image Designing Propoerties */
+    .thumb {
+        height: 75px;
+        border: 1px solid #000;
+        margin: 10px 5px 0 0;
+    }
+</style>
+
+<script type="text/javascript">
+    /* The uploader form */
+    $(function () {
+        $(":file").change(function () {
+            if (this.files && this.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = imageIsLoaded;
+                reader.readAsDataURL(this.files[0]);
+            }
+        });
+    });
+
+    function imageIsLoaded(e) {
+        $('#myImg').attr('src', e.target.result);
+        $('#yourImage').attr('src', e.target.result);
+    };
+
+</script>
+
+
+<input type='file' />
+</br><img id="myImg" src="#" alt="your image" height=200 width=100>
+
+
+-->
